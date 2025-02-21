@@ -1,0 +1,9 @@
+
+{
+    "Artificial Intelligence" : ["Artificial Intelligence is the field of computer science focused on creating systems that can perform tasks requiring human-like intelligence, such as learning, reasoning, problem-solving, and decision-making."],
+    "Civil Engineering ": ["Civil Engineering is the branch of engineering that involves designing, constructing, and maintaining infrastructure such as buildings, roads, bridges, and water systems to improve and sustain modern society."],
+    "Computer Science Engineering": ["Computer Science Engineering is the study of designing, developing, and maintaining software and hardware systems to solve real-world problems using computational principles."],
+    "Information Science Engineering" : ["Information Science is the study of managing, analyzing, and organizing data and information using technology to solve problems, support decision-making, and enhance communication."],
+    "Electronics and Communication Engineering": ["Electronics and Communication Engineering is the study of electronic devices, circuits, and communication systems to enable seamless transmission and reception of data across various platforms."],
+    "Electrical and Electronics Engineering":["Electrical Engineering is the branch of engineering that focuses on designing, developing, and maintaining electrical systems, devices, and circuits for power generation, transmission, and communication."]
+}

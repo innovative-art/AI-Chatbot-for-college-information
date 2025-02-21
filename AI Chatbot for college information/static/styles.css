@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+}
+
+.info-box {
+    width: 20%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7); /* Adds a semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.info-box:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05); /* Adds a slight zoom effect on hover */
+}
+
+.chatbox {
+    width: 40%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent chatbox */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#chat-messages {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: #000000; /* Ensures messages are readable */
+}
+
+.input-area {
+    display: flex;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#send-btn {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#send-btn:hover {
+    background-color: #0056b3; /* Changes color on hover */
+}
+.bot-message a {
+    text-decoration: none;
+    color: #4f5d6c;
+    font-weight: bold;
+}
+
+.bot-message a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+/* Message container styling */
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* Styling for user messages */
+.user-message {
+    background-color: #d4edda; /* Light green */
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+}
+
+/* Styling for bot messages */
+.bot-message {
+    background-color: #f6f6f6; /* Light red */
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+}
+.custom-email {
+    color: #ff5722; /* Use a color of your choice, e.g., orange-red */
+    text-decoration: none; /* Removes underline */
+}
+
+.custom-email:hover {
+    color: #e64a19; /* Slightly darker shade on hover */
+    text-decoration: underline; /* Adds underline on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header.animated-header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #10101a;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: slideIn 2s ease-in-out, glow 1.5s infinite;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes glow {
+    50% {
+        text-shadow: 0 0 20px #f6f6f7, 0 0 30px #d6dcdf, 0 0 40px #dddfe1;
+    }
+}
+

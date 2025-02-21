@@ -1,0 +1,53 @@
+[
+    {
+        "name": "Dr. Thyagaraju G S",
+        "department": "Computer Science and Engineering",
+        "designation": "Head of Department"
+    },
+    {
+        "name": "Dr. Suchetha N V",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mr. Pradeep Rao K B",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mrs Sahana Kumari B",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mr. Prasad S R",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mrs. Shilpa R",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mr. Pradeep G S",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Ms Supritha P O",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Mr Dhawal Jain",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    },
+    {
+        "name": "Ms. Larine P",
+        "department": "Computer Science and Engineering",
+        "designation": "Assistant Professor"
+    }
+
+]

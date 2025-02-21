@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('/static/sdmnew.jpg') no-repeat center center fixed; /* College photo as background */
+            background-size: cover; /* Ensures the image covers the entire screen */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #welcome-container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8); /* Slight transparency for better readability */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        #welcome-container h1 {
+            color: #04440e;
+        }
+        #enter-chat {
+            background: #065812;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #enter-chat:hover {
+            background: #04440e;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome-container">
+        <h1>Welcome to the SDMIT Chatbot 🤖</h1>
+        <p><h3><pre>Your one-stop solution for Our college information!</pre></h3></p>
+        <button id="enter-chat" onclick="location.href='/chat'">Enter Chat</button>
+    </div>
+</body>
+</html>
